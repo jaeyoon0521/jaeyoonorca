@@ -1,0 +1,308 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <title>
+
+        Kevin's Portfolio
+
+    </title>
+
+
+      <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'>
+      <link href="assets/css/toolkit-startup.css" rel="stylesheet">
+      <link href="assets/css/application-startup.css" rel="stylesheet">
+
+	  <style type = "text/css">
+    /* Dropdown Button */
+    .dropbtn {
+        background-color: #4CAF50;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        float:right;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #f1f1f1}
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+    Try it Yourself »
+
+
+
+
+#email{
+  font-size:15px;
+
+
+}
+
+#tel{
+    font-size:20px;
+
+
+}
+#emailhead{
+color:white;
+
+}
+
+	  </style>
+
+
+
+    <style>
+      /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+      /* this chunk of css is not part of the toolkit :) */
+      /* …curses ios, etc… */
+      @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+        body {
+          width: 1px;
+          min-width: 100%;
+          *width: 100%;
+        }
+        #stage {
+          height: 1px;
+          overflow: auto;
+          min-height: 100vh;
+          -webkit-overflow-scrolling: touch;
+        }
+      }
+
+
+    </style>
+  </head>
+
+
+<body>
+
+
+
+
+<div class="stage-shelf stage-shelf-right hidden" id="sidebar">
+  <ul class="nav nav-bordered nav-stacked">
+    <li class="nav-header">Examples</li>
+    <li class="active">
+      <a href="index.html">UX</a>
+    </li>
+    <li>
+      <a href="minimal/index.html">Project Management</a>
+    </li>
+    <li>
+      <a href="bold/index.html">Contact</a>
+    </li>
+  </ul>
+</div>
+
+<div class="stage" id="stage">
+
+<div class="block block-inverse block-fill-height app-header"
+     style="background-image: url(assets/img/startup-1.jpg);">
+
+
+
+
+  <img class="app-graph" src="assets/img/startup-0.svg">
+
+  <div class="block-xs-middle p-b-lg">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10 col-md-6">
+          <h1 class="block-title m-b-sm">Kevin Ahn's Portfolio</h1>
+          <p class="lead m-b-md text-muted">Professional UX Designer / Project Manager</p>
+          <p class="lead m-b-md text-muted"><strong>University:</strong> Sogang University</p>
+          <p class="lead m-b-md text-muted"><strong>Major:</strong> Art & Techology / French Literature</p>
+
+          <button class="btn btn-primary btn-lg"><a id = "emailhead" href="mailto:itskevin@naver.com">Email Me</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="block block-secondary app-iphone-block">
+  <div class="container">
+    <div class="row app-align-center">
+
+      <div class="col-sm-5 hidden-xs">
+        <img class="app-iphone" src="assets/img/startup-2.jpg" style="width: 100%;">
+      </div>
+
+      <div class="col-sm-6 col-sm-offset-1">
+        <h6 class="text-muted text-uppercase">Information</h6>
+        <h2 class="m-t-0">UX Designer</h2>
+        <p class="lead m-b-md">Worked as a professional <strong>UX Designer</strong> at <strong>LG Wearable Device Reseach team</strong> and <strong>Smilegate Mobile Game Developement Team</strong></p>
+        <div class="row hidden-sm">
+          <div class="col-sm-6 m-b-md">
+            <p><h5 class="m-y-0">LG Wearable Device Team</h5></p>
+            <p> - Worked as a team leader for LG Wearable Device team </p>
+			<p> - Researched Wearable Device Market and developed future UX scenario </p>
+			<p> - Utilized Google Analytics and Usertesting for user testing </p>
+			<p> - Used Axure (Wireframing), Bootstrap to develope protoypes</p>
+
+			<a href="lgwearable.html" class="text-primary">Learn more.</a>
+          </div>
+          <div class="col-sm-6">
+            <p><h5 class="m-y-0">Smilegate Mobile Game Development Team</h5></p>
+            <p> - Participated at a Smile Mobile Game Developement internship </p>
+			<p> - Worked as a UI/UX Designer </p>
+			<p> - Researched game industry and developed prototypes </p>
+			<p> - Used Unity 3D, Android Studio, Xcode to develope a game called "Cooking Monster"</p>
+
+			<a href="smilegate.html" class="text-primary">Learn more.</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="block block-inverse block-secondary app-code-block">
+  <div class="container">
+    <div class="row app-align-center">
+      <div class="col-sm-5 col-sm-push-7">
+        <pre class="app-code">
+<span>1</span> <span class="hidden-xs">goAnalytics</span> “who are the latest 3 users?”
+<span>2</span>
+<span>3</span>  {
+<span>4</span>    "Dave": {
+<span>5</span>      "fullName": "Dave Gamache",
+<span>6</span>      "twitterHandle": "@dhg",
+<span>7</span>    }
+<span>8</span>    "Mark": {
+<span>9</span>      "fullName": "Mark Otto",
+<span>10</span>      "twitterHandle": "@mdo",
+<span>11</span>    }
+<span>12</span>    "Jacob": {
+<span>13</span>      "fullName": "Jacob Thornton",
+<span>14</span>      "twitterHandle": "@fat",
+<span>15</span>    }
+<span>16</span>  }</pre>
+      </div>
+
+            <div class="col-sm-6 col-sm-pull-5">
+        <h6 class="text-muted text-uppercase">Information</h6>
+        <p><h2 class="m-t-0">Project Manager</h2></p>
+        <p class="lead m-b-md">Proceeded various of projects as a project manager. e.g <strong>Museum of Seoul National University</strong> & <strong>LG Global Challenger</strong></p>
+        <div class="row hidden-sm">
+          <div class="col-sm-6 m-b-md">
+            <p><h5 class="m-y-0">Museum of Seoul National University</h5></p>
+            <p> - Worked as a Technical Director for Media Art exhibition called "Hybrid Highlights" </p>
+			<p> - Planned and excuted an Art exhibition </p>
+			<p> - Developed a website to promote the exhibition. (Includes UI/UX Design, Programming, and web hosting) </p>
+			<p> - Exhibited two Virtual Reality Art works by collaborating with Swiss Scientists</p>
+
+			<a href="museum.html" class="text-primary">Learn more.</a>
+          </div>
+          <div class="col-sm-6">
+            <p><h5 class="m-y-0">LG Global Challenger</h5></p>
+            <p> - Participated in a renowned project called LG Global Challenger </p>
+			<p> - Devised a method to retrieve Korean artifacts that are located in foreign countries </p>
+			<p> - Visted United Kingdom, Germany, France, and Italy to meet high-level officials in diplomatic corps</p>
+
+
+			<a href="lgglobal.html" class="text-primary">Learn more.</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="block block-secondary app-block-marketing-grid">
+  <div class="container text-center">
+
+    <div class="row m-b-lg">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+        <h6 class="text-muted text-uppercase">More Information</h6>
+        <h3  class="m-t-0 m-b">This is my speciality!</h3>
+      </div>
+    </div>
+
+    <div class="row app-marketing-grid">
+      <div class="col-sm-4 p-x-md m-b-lg">
+        <img class="m-b" src="assets/img/startup-9.svg">
+        <p><strong>Language: </strong>English/French/Korean</p>
+        <p><strong>TOEIC: </strong>985</p>
+        <p><strong>DELF: </strong>B2</p>
+      </div>
+      <div class="col-sm-4 p-x-md m-b-lg">
+        <img class="m-b" src="assets/img/startup-13.svg">
+        <p><strong>UI/UX</strong> Mobile & App</p>
+        <p><em>UI : </em> Photoshop, Illustrator</p>
+        <p><em>UX : </em> Google Analytics, Usertesting, Axure</p>
+        <p><em>Programming : </em> HTML, CSS, Javascript, PHP</p>
+      </div>
+      <div class="col-sm-4 p-x-md m-b-lg">
+        <img class="m-b" src="assets/img/startup-14.svg">
+        <p><strong>Project Management</strong></p>
+        <p>Responsible Project Manager</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h3 class="display-3">Contact Me</h3>
+    <p id ="email" class="lead"><a href="mailto:itskevin@naver.com">itskevin@naver.com</a></p>
+    <p id ="tel" class="lead"><a href="tel:(+82)1073940521">(+82)1073940521</a></p>
+  </div>
+</div>
+
+</div>
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/toolkit.js"></script>
+    <script src="assets/js/application.js"></script>
+  </body>
+</html>
